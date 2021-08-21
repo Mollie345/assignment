@@ -64,7 +64,14 @@ test('throws an error when b is bigger then max', (): void => {
 //   expect(actual).toStrictEqual(expected);
 // });
 
-test('finds dividors', (): void => {
+test('finds dividors between 11 and 50', (): void => {
+  const actual = calculateDivisors(11, 50);
+  const expected = 2;
+
+  expect(actual).toStrictEqual(expected);
+});
+
+test('finds dividors between 0 and 1000', (): void => {
   const actual = calculateDivisors(0, 1000);
   const expected = 11;
 

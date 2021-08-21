@@ -22,7 +22,7 @@ export function calculateDivisors(a: number, b: number): number {
       hasThreeDivisors += 1;
     }
   }
-
+  console.log('amountOfDivisors: ', hasThreeDivisors);
   return hasThreeDivisors;
 }
 
@@ -47,5 +47,3 @@ export function calculateDivisor(n: number): number {
     return prevValue;
   }, 0);
 }
-
-// console.log('Result:', calculateDivisors(11, 50));

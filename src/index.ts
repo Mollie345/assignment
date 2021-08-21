@@ -22,7 +22,7 @@ export function calculateDivisors(a: number, b: number): number {
       hasThreeDivisors += 1;
     }
   }
-  console.log('amountOfDivisors: ', hasThreeDivisors);
+  console.log('amount of numbers with three divisors:', hasThreeDivisors);
   return hasThreeDivisors;
 }
 
